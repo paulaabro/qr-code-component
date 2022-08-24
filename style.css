@@ -3,3 +3,44 @@
 body {
   font-family: "Outfit", sans-serif;
 }
+
+main {
+  width: 100vw;
+  height: 100vh;
+  background-color: #d5e1ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 320px;
+  background-color: #fff;
+  box-shadow: 0 25px 25px rgba(0, 0, 0, 0.0476518);
+  border-radius: 20px;
+  padding: 16px;
+}
+
+img {
+  width: 288px;
+  border-radius: 10px;
+}
+
+.card-text {
+  margin: 24px 16px;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  color: #1f314f;
+  margin-bottom: 16px;
+}
+
+p {
+  font-size: 15px;
+  line-height: 19px;
+  color: #7d889e;
+}
